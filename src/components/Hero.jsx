@@ -5,7 +5,7 @@ import logo from '../assets/logo.png';
 const Hero = () => {
   return (
     <div className='hero'>
-      <video className='hero-video' src={bg} type="video/mp4"  loop muted>
+      <video className='hero-video' src={bg} type="video/mp4" autoPlay loop muted>
         Your browser does not support the video tag.
       </video>
 
