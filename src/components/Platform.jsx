@@ -8,7 +8,7 @@ const Platform = () => {
 
           <div className="platform-points">
             {data.map((value, i) => (
-              <div className="platform-point">
+              <div key={i} className="platform-point">
                 <span
                   className="platform-icon"
                   dangerouslySetInnerHTML={{ __html: value.icon }}></span>

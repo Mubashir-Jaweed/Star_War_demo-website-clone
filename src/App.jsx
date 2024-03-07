@@ -11,7 +11,7 @@ function App() {
         <Nav />
           <Routes>
             <Route path={"/"} element={<Home />} />
-            <Route path={"/characters"} element={<AllData />} />
+            <Route path={"/people"} element={<AllData />} />
             <Route path={"/starships"} element={<AllData />} />
             <Route path={"/planets"} element={<AllData />} />
           </Routes>

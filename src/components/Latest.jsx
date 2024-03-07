@@ -31,7 +31,7 @@ const Latest = () => {
 };
 
 const data = [
-  { name: "Star Wars: Characters", img: characters, url: "/characters" },
+  { name: "Star Wars: Peoples", img: characters, url: "/people" },
   { name: "Star Wars: StarShips", img: starships, url: "/starships" },
   { name: "Star Wars: Planets", img: planets, url: "/planets" },
 ];
